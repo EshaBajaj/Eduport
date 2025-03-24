@@ -15,11 +15,10 @@
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-
                 <a class="navbar-brand mx-auto">
                     <img src="/public/logo.png" alt="Logo" class="logo">
                 </a>
-                <button class="btn btn-info" type="button" class="category">Category<i class="bi bi-ui-checks-grid"></button></i>
+                <button class="btn btn-info category" type="button">Category <i class="bi bi-ui-checks-grid"></i></button>
                 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
@@ -33,151 +32,197 @@
                         <li class="nav-item"><a class="nav-link" href="#">Megamenu</a></li>
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <span><i class="bi bi-search"></i><span>
-                          </form>
+                            <span><i class="bi bi-search"></i></span>
+                        </form>
                     </ul>
                 </div>
             </div>
         </nav>
        
-        <div class="hero-section">
-            <h2>Limitless learning <br>at yourfingertips</h2>
-            <h6>Online learning and teaching marketplace with 5K+ courses & 10M students. <br>Taught by experts to help you acquire new skills.</h6>
-            <p><i class="bi bi-patch-check-fill">Learn with experts</i>
-                <i class="bi bi-patch-check-fill">Get certificate</i>
-                <i class="bi bi-patch-check-fill">Get membership</i></p>
+        <div class="hero-section d-flex flex-column flex-lg-row align-items-center justify-content-between">
+            <div class="hero-text text-center text-lg-start">
+                <h2>Limitless learning <br>at your fingertips</h2>
+                <h6>Online learning and teaching marketplace with 5K+ courses & 10M students. <br>Taught by experts to help you acquire new skills.</h6>
+                <p>
+                    <i class="bi bi-patch-check-fill"> Learn with experts</i>
+                    <i class="bi bi-patch-check-fill"> Get certificate</i>
+                    <i class="bi bi-patch-check-fill"> Get membership</i>
+                </p>
+                <div class="d-flex align-items-center gap-3">
+                    <button type="button" class="btn btn-danger">Get Started</button>
+                    <i class="bi bi-play-circle-fill" style="color: blue; font-size: 1.5rem;"></i>
+                    <button type="button" class="btn btn-outline-primary">Show Video</button>
+                </div>
             </div>
-            <img src="/public/effect.png" class="bg-effect">
-            <div class="hero-img"><img src="/public/hero.png"></div>
-            <div class="button">
-            <button type="button" class="btn btn-danger" data-bs-toggle="button" mt-5>Get Started</button>
-            <i class="bi bi-play-circle-fill m-3 " style="color: blue;"></i><button type="button" class="btn" data-bs-toggle="button">Show Video</button>
+            <div class="hero-img">
+                <img src="/public/hero.png" class="img-fluid" alt="Hero Image">
+            </div>
         </div>
+
+        <section class="cards container text-center my-5">
+          <div class="row g-4 d-flex" style="flex-wrap: nowrap;">
+              <div class="col-3 col-md-3">
+                  <div class="card p-4" style="color:rgb(202, 215, 17); background-color:rgba(236, 236, 148, 0.646)">
+                      <i class="bi bi-laptop fs-1"></i>
+                      <h4 class="card-title">10K Online Courses</h4>
+                  </div>
+              </div>
+              <div class="col-3 col-md-3">
+                  <div class="card p-4" style="color:rgb(205, 22, 46); background-color:rgba(215, 154, 154, 0.646)">
+                      <i class="bi bi-person-video fs-1"></i>
+                      <h4 class="card-title">200+ Expert Teachers</h4>
+                  </div>
+              </div>
+              <div class="col-3 col-md-3">
+                  <div class="card p-4" style="color:rgb(4, 128, 0); background-color:rgba(144, 209, 153, 0.646)">
+                      <i class="bi bi-mortarboard fs-1"></i>
+                      <h4 class="card-title">60K+ Online Students</h4>
+                  </div>
+              </div>
+              <div class="col-3 col-md-3">
+                  <div class="card p-4" style="color:purple; background-color:rgba(185, 154, 215, 0.646)">
+                      <i class="bi bi-patch-check-fill fs-1"></i>
+                      <h4 class="card-title">6K+ Certified Courses</h4>
+                  </div>
+              </div>
+          </div>
+      </section>
+      
+
+      <section class="popular-courses my-5">
+       
+        <h2 class="text-center mb-4">Popular Courses<p><p></p>at EduPort</p></h2>
+    
+        <div class="row g-4">
+           
+            <div class="col-12 col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="/public/two.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-12 col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="/public/one.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-12 col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="/public/two.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Second row of cards -->
+            <div class="col-12 col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="/public/one.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-12 col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="/public/two.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-12 col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="/public/one.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <section class="cards">
-        <div class="card" style="width: 18rem; color:rgb(202, 215, 17); background-color:rgba(236, 236, 148, 0.646)">
-            <div class="card-body">
-                <i class="bi bi-laptop" style="height: 10px;"></i>
-              <h5 class="card-title">10 K Online Courses</h5>
-            </div>
-          </div>
-
-          <div class="card" style="width: 18rem; color:rgb(205, 22, 46); background-color:rgba(215, 154, 154, 0.646)">
-            <div class="card-body">
-                <i class="bi bi-person-video"></i>
-              <h5 class="card-title">200+ Expert Teachers</h5>
-            </div>
-          </div>
-
-          <div class="card" style="width: 18rem; color:rgb(4, 128, 0); background-color:rgba(144, 209, 153, 0.646)">
-            <div class="card-body">
-                <i class="bi bi-mortarboard"></i>
-              <h5 class="card-title">60K+ Online Students</h5>
-            </div>
-          </div>
-
-          <div class="card" style="width: 18rem; height:10rem; color:purple; background-color:rgba(185, 154, 215, 0.646)">
-            <div class="card-body">
-                <i class="bi bi-patch-check-fill"></i>
-              <h5 class="card-title">6K+ Certified Courses</h5>
-            </div>
-          </div>
-          </section>
-
-          <div class="popular">
-            <div class="card" style="width: 18rem;">
-                <img src="/public/two.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-
-              <div class="card" style="width: 18rem;">
-                <img src="/public/one.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-
-              <div class="card" style="width: 18rem;">
-                <img src="/public/two.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-
-          </div>
-
-          <div class="popular2">
-            <div class="card" style="width: 18rem;">
-                <img src="/public/one.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-
-              <div class="card" style="width: 18rem;">
-                <img src="/public/two.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-
-              <div class="card" style="width: 18rem;">
-                <img src="/public/one.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-
-          </div>
-
-
-          <footer>
-            <div>
-                <div class="footer-brand-name">
-                    Eduport.
-                </div>
-                <aside>
-                    <span class="bi bi-facebook"></span>
-                    <span class="bi bi-youtube"></span>
-                    <span class="bi bi-instagram"></span>
-                    <span class="bi bi-twitter"></span>
-                </aside>
-            </div>
+    </section>
     
-            <div >
-                <div class="data">SUPPORT</div>
-                <span>Contact Us</span>
-                <span>FAQs</span>
-                <span>Size Guide</span>
-                <span>Shipping & Returns</span>
-            </div>
-    
-            <div >
-                <div class="data">Shop</div>
-                <span>Men's Shopping</span>
-                <span>Women's Shopping</span>
-                <span>Kids' Shopping</span>
-                <span>Discounts</span>
-            </div>
-    
-            <div >
-                <div class="data">Company</div>
-                <span>Our Story</span>
-                <span>Careers</span>
-                <span>Terms & Conditions</span>
-                <span>Privacy & Cookie policy</span>
-            </div>
-    
-            <div >
-                <div class="data">Contact</div>
-                <span>0000-****-0000</span>
-                <span>1-000-***-1111</span>
-                <span>help@shopper.com</span>
-            </div>
-    
-        </footer>
-    
+
+    <footer class="container-fluid py-5" style="background-color: #f4f4f4;">
+      <div class="container">
+          <div class="d-flex align-items-center justify-content-between mb-4">
+              <div class="d-flex align-items-center">
+                  <img src="/public/logo.png" alt="Logo" class="logo-footer">
+                  <h3 class="footer-brand-name ms-3">Eduport</h3>
+              </div>
+              <div class="social-icons">
+                  <i class="bi bi-facebook mx-2"></i>
+                  <i class="bi bi-youtube mx-2"></i>
+                  <i class="bi bi-instagram mx-2"></i>
+                  <i class="bi bi-twitter mx-2"></i>
+              </div>
+          </div>
+  
+          <div class="row">
+              <div class="col-md-3">
+                  <h5>SUPPORT</h5>
+                  <ul>
+                      <li>Contact Us</li>
+                      <li>FAQs</li>
+                      <li>Edu Port</li>
+                      <li>Edu Port Books</li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+                  <h5>RESOURCES</h5>
+                  <ul>
+                      <li>Blog</li>
+                      <li>Start Learning</li>
+                      <li>Free Trials</li>
+                      <li>FAQs</li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+                  <h5>OUR COURSES</h5>
+                  <ul>
+                      <li>Online Courses</li>
+                      <li>Certified Courses</li>
+                      <li>Master Classes</li>
+                      <li>New Courses</li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+                  <h5>CONTACT</h5>
+                  <ul>
+                      <li>0000-****-0000</li>
+                      <li>1-000-***-1111</li>
+                      <li>help@eduport.com</li>
+                  </ul>
+              </div>
+          </div>
+  
+          <div class="row mt-4">
+              <div class="col-md-6">
+                  <h5>Sign Up for Feedback</h5>
+                  <form action="#" method="POST" class="feedback-form">
+                      <div class="mb-3">
+                          <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                      </div>
+                      <div class="mb-3">
+                          <textarea class="form-control" id="feedback" rows="3" placeholder="Leave your feedback" required></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </footer>
+  
+    </div>
 </body>
 </html>
