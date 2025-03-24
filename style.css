@@ -1,0 +1,111 @@
+*{
+    margin: 3px;
+    
+}
+.logo{
+    height:60px;
+    width:150px;
+}
+.category{
+   background-color: rgba(35, 160, 210, 0.708)!important;
+    width:40px;
+    height:70px;
+    padding:1px;
+    margin-left: 5px;
+}
+.navbar {
+    background-color: #ffffff !important;
+    padding: 15px;
+}
+.navbar-nav .nav-link {
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Arial';
+    color: rgb(81, 76, 46) !important;
+}
+.navbar-nav .nav-link:hover {
+    text-shadow: 0px 0px 1px rgb(81, 76, 46) !important;
+}
+.hero-section{
+    margin-top: 35px;
+    justify-content: center;
+
+}
+.hero-section.h2{
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    z-index: 1;
+}
+.hero-section.h6{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    z-index: 1;
+}
+.hero-img{
+    height:100px;
+    width:90px;
+   margin-left:400px;
+   margin-top:-190px;
+   object-fit: contain;
+    
+}
+.bg-effect{
+    z-index:1;
+    width:85px;
+    height:65px;
+    margin-left:500px;
+    margin-top:-50px;
+}
+.button{
+    margin-top: 60px;
+}
+.cards
+{
+    margin-top: 550px;
+    display: flex;
+
+}
+
+.popular{
+    display:flex;
+    margin-top:15px;
+}
+.popular2{
+    display:flex;
+    margin-top:10px;
+}
+
+footer{
+            
+    background-color: black;
+    color:white;
+    font-family: Arial;
+    padding:15px;
+   
+    display: grid;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+}
+
+.footer-brand-name{
+    font-weight: bold;
+    font-size:15px;
+    padding:10px;
+}
+.data~span{
+    display: block;
+    font-size:8px;
+    color:grey;
+    padding:2px;
+
+}
+
+aside span{
+    margin-right:8px;
+}
+.data div{
+    padding-bottom: 10px;
+}
